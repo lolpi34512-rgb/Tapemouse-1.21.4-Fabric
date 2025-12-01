@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "autoclick",
+  "version": "1.0.0",
+  "name": "Autoclick Mod",
+  "entrypoints": {
+    "main": ["com.example.autoclick.AutoclickMod"],
+    "client": ["com.example.autoclick.AutoclickClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
